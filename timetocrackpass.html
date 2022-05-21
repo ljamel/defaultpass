@@ -1,0 +1,1437 @@
+<p>Hopefully some of you will find this table useful for (<a href="https://www.eccouncil.org/code-of-ethics/" rel="external nofollow noopener" target="_blank">legally and ethically</a>) pentesting WiFi routers.</p>
+<p>Please note that the figures shown in the far right column&nbsp;'Time' are based on a Palit GTX 970 using oclHashCat. You will need to do your own maths for this, but it gives you a good idea of average crack times for a fairly standard &pound;300 / $500 GPU.</p>
+<p>For WPA2 with the GTX 970, my benchmarks with hashcat&nbsp;are;</p>
+<ul>
+<li>13,774,031,184 password hashes per day</li>
+<li>573,917,966 per hour</li>
+<li>9,565,299 per minute</li>
+<li>159,421 per second</li>
+</ul>
+<p>Anything marked as 'Never' and red&nbsp;will take more than a year to crack.</p>
+<p>Anything green is less than 1 week.</p>
+<p>Anything amber is unknown or will require a word list. <s>For EE/Brightbox wordlist details, see <a href="https://goo.gl/hhMiiA" rel="external nofollow noopener" target="_blank">here</a></s>&nbsp;(appears to have been taken down. Google cache search.) For NETGEAR details, see <a href="http://xiaopan.co/forums/threads/netgearxx-wordlist.6571/" rel="external nofollow noopener" target="_blank">here</a>.</p>
+<p>&nbsp;</p>
+<p>Obviously most of you will find the SSID / Password Format / Length columns the most useful. Good info!</p>
+<p>&nbsp;</p>
+<table width="480" cellspacing="0" cellpadding="0" border="1">
+<tbody>
+<tr>
+<td width="127" valign="top">
+<p><b><span><span style="color: #000000; font-family: Calibri;">SSID</span></span></b></p>
+</td>
+<td width="50" valign="top">
+<p><b><span><span style="color: #000000; font-family: Calibri;">Length</span></span></b></p>
+</td>
+<td width="151" valign="top">
+<p><b><span><span style="color: #000000; font-family: Calibri;">Password Format</span></span></b></p>
+</td>
+<td width="104" valign="top">
+<p><b><span><span style="color: #000000; font-family: Calibri;">Combinations</span></span></b></p>
+</td>
+<td width="47" valign="top">
+<p><b><span><span style="color: #000000; font-family: Calibri;">Time</span></span></b></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2WIREXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3MobileWiFi</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2,821,109,907,456</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3Wireless-Modem-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">(The first 4 digits are the same as the 4 digits on the SSID!)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">65,536</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 sec</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Alice_XXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">24</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">22,452,257,707,354,557,240,087,211,123,792,674,816</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">AOLBB-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2,821,109,907,456</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">ATT###</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">ATTxxxx 0000</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">3,656,158,440,062,976</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">ATTxxxxxxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">12</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">a-z + symbols</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">1,449,225,352,009,601,191,936</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">belkin.xxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,475,789,056</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">belkin.xxxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Belkin.XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Belkin_XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BigPondXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BOLT!SUPER 4G-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4 numbers + Last 4 of SSID</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">65,536</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 sec</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BrightBox-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">-</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 words, with hyphens in-between.</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">Lengths 3-4-5 or any combination.</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Need dict.</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BTHomeHub(1)-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BTHomeHub2-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">289,254,654,976</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BTHub3</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">289,254,654,976</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BTHub4</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">289,254,654,976</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">BTHub5</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">289,254,654,976</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">BTHub6</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">10, 12</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">100,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">CenturyLinkXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">14</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">72,057,594,037,927,936</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Cisco</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">26</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">43,608,742,899,428,874,059,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Digicom_XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2,821,109,907,456</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">DJAWEB_#####</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Domino-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">E583x-xxxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">E583x-xxxxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">EasyBox 904 LTE</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">9</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">13,537,086,546,263,552</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">EasyBox-######</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">9</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">68,719,476,736</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">5 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">EEBrightBox-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">-</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 words, with hyphens in-between.</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">Lengths 3-4-5 or any combination.</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Need dict.</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">FRITZ!Box Fon WLAN ####</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">16</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">10,000,000,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">FrontierXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Hitron</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">12</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 A-Z</span></span></p>
+<p><span><span style="font-family: Calibri;">(sometimes use the device&rsquo;s serial number as the default key!)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">4,738,381,338,321,616,896</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">INFINITUM####</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">iPhone 5</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">?</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Lowercase word plus 4 numbers</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">172000^65,536</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Need dict.</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Keenetic-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">218,340,105,584,896</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Linkem_XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Livebox-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">?</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">?</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">mifi2</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">13</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">170,581,728,179,578,208,256</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">MobileWifi-xxxx</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">MYWIFI (EE)</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">-</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">MYWIFI + 4 numbers</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">65,536</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 sec</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">NETGEARXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">-</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Adjective + Noun + 3 numbers</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Need dict.</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Netia-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">13</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">4,503,599,627,370,496</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">ONOXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">17 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Orange-0a0aa0</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Orange-AA0A00</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">12</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">281,474,976,710,656</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Orange-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2345679 ACEF</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">214,358,881</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">23 mins</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">PLDT</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">-</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">PLDTWIFI + Last 5 digits of router MAC</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 sec</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Plusnet Broadband UK</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">64</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">a-z A-Z 0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">-</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">PlusnetWireless-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">PLUSNET-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Sitecom_XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">4,294,967,296</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 hrs</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">SKYXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">A-Z</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;"><a href="http://www.ph-mb.com/products/sky-calc" rel="external nofollow noopener" target="_blank">http://www.ph-mb.com/products/sky-calc</a></span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">208,827,064,576</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">SpeedTouchXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TALKTALK-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">346789 A-Z</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">(bar ILOSZ)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">282,429,536,481</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">3 wks</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TDC-####</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">9</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">68,719,476,736</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">5 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Tech_XXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">208,827,064,576</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">15 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Technicolor-Router</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Telecom-XXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">?</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">?</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TelstraXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TELUSXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Thomson</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">ThomsonXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 a-f</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TIM_PN51T_XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">WPS PIN is 12345670</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TNCAP-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TNCAPXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TP-LINK_######</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TRENDnet</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">TEW-123ABC</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">11</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">First 3 digits in SSID (123 here) + 8 digits</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;"><a href="https://forums.kali.org/showthread.php?26366-TRENDnet-WPA-disclosure-amp-dictionaries" rel="external nofollow noopener" target="_blank">https://forums.kali.org/showthread.php?26366-TRENDnet-WPA-disclosure-amp-dictionaries</a></span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2,821,109,907,456</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7 mth</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">TRKASHI-######</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2 numbers, 6 digits</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">(10^2)^(26^6)</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Need dict.</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">UNITE-XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">10,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">1 min</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">UPCXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">208,827,064,576</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">15 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">Verizon MIFIXXXX XXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">11</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">100,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">virginmediaXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">a-z (bar iol)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">78,310,985,281</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">6 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">VirginMobile MiFiXXXX XXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">11</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">100,000,000,000</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">7.5 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">VMXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">12</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z A-Z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">3,226,266,762,397,899,821,056</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">VMXXXXXXX-2G</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">a-z (bar iol)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">78,310,985,281</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">6 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">VMXXXXXXX-5G</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">8</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">a-z (bar iol)</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">78,310,985,281</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">6 days</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">Vodaphone_XXXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">15</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 a-z</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">221,073,919,720,733,357,899,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="font-family: Calibri;">WLAN1-XXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="font-family: Calibri;">11</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="font-family: Calibri;">17,592,186,044,416</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="font-family: Calibri;">Never</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">ZyXELXXXXXX</span></span></p>
+</td>
+<td width="50" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">13</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">10</span></span></p>
+</td>
+<td width="151" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-Z</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">0-9 A-F</span></span></p>
+</td>
+<td width="104" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+<p><span><span style="color: #000000; font-family: Calibri;">1,099,511,627,776</span></span></p>
+</td>
+<td width="47" valign="top">
+<p><span><span style="color: #000000; font-family: Calibri;">2.5 mth</span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span><span style="color: #000000; font-family: Calibri;">&nbsp;</span></span></p>
+<p>Please inform me of any inaccuracies or additional data you feel could be added.</p>
+<p>Enjoy!</p>*
+
+source 
